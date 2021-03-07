@@ -5,9 +5,29 @@ body {
     background-image: url('https://image.freepik.com/free-vector/vintage-ornamental-flowers-background_52683-28040.jpg');
 }
 
+#wrapper { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .container {
+    border: 10px white solid;
     background-color: white;
-    border: 10px white solid; 
+}
+
+.sidebar-content {
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 130px;
+    background-color: rgb(126, 221, 216);
+    border: 4px rgb(60, 139, 135) solid;
+}
+
+.content {
+    width: 610px;
 }
 
 .header {
@@ -16,7 +36,7 @@ body {
 }
 
 .header-meta {
-    margin: 2px;
+    padding: 2px;
     font-size: 14px;
 }
 
@@ -32,13 +52,11 @@ body {
     border: 4px #C2E9E9 solid; 
 }
 
-.post-image {
-}
-
 .date {
     border-bottom: 2px lightseagreen dashed;
 }
 
-img {
-    float: right;
+.highlight:hover {
+    transition: .7s all;
+    background-color: yellow;
 }
