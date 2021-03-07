@@ -1,0 +1,44 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Georgia", "Arial", sans-serif;
+    background-image: url('https://image.freepik.com/free-vector/vintage-ornamental-flowers-background_52683-28040.jpg');
+}
+
+.container {
+    background-color: white;
+    border: 10px white solid; 
+}
+
+.header {
+    text-align: right;
+    background-color:#A8F0F0;
+}
+
+.header-meta {
+    margin: 2px;
+    font-size: 14px;
+}
+
+.post-content {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.post {
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #E8FBFB;
+    border: 4px #C2E9E9 solid; 
+}
+
+.post-image {
+}
+
+.date {
+    border-bottom: 2px lightseagreen dashed;
+}
+
+img {
+    float: right;
+}
